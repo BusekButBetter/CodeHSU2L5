@@ -12,14 +12,21 @@ public class Rectangle
     //complete the constructor
     public Rectangle(int rectWidth, int rectHeight)
     {
-        
+        width = rectWidth;
+        height = rectHeight;
     }
     
     //create a printArea method
-    
+    public void printArea(){
+        int area = width*height;
+        System.out.println(area);
+    }
     
     //setter method, need to be able to set width and height
-    
+    public void setTheThing(int newHeight, int newWidth){
+        height = newHeight;
+        width = newWidth;
+    }
     
     
     
